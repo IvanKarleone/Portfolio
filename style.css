@@ -42,8 +42,18 @@ body {
     font-size: 16px;
 }
 
-.jumbotron .container {
-    margin-left: 0;
+/* ---------------------------- Media Query ---------------------------- */
+
+.cards {
+    padding-left: 32px;
+}
+
+.cards .container {
+    padding-left: 48px;
+}
+
+.cards .card {
+    margin-top: 32px;
 }
 
 /* ---------------------------- Media Query ---------------------------- */
