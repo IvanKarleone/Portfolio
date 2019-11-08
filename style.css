@@ -64,6 +64,12 @@ body {
     margin-top: 32px;
 }
 
+/* ---------------------------- Footer ---------------------------- */
+
+.footer {
+    padding-left: 32px;
+    background: #e9ecef;
+}
 /* ---------------------------- Media Query ---------------------------- */
 
 @media only screen and (max-width: 575px){
