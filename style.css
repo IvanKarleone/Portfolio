@@ -30,6 +30,7 @@ body {
 
 .jumbotron {
     margin-bottom: 0px;
+    color: #212529;
 }
 
 .jumbotron h2 {
@@ -37,10 +38,18 @@ body {
     font-weight: 300;
 }
 
+.jumbotron p {
+    font-size: 16px;
+}
+
+.jumbotron .container {
+    margin-left: 0;
+}
+
 /* ---------------------------- Media Query ---------------------------- */
 
-@media only screen {
-    .jumbotron .container {
-        margin-left: 0;
+@media only screen and (max-width: 575px){
+    .jumbotron h2 {
+        font-size: 48px;
     }
 }
